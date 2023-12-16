@@ -240,9 +240,25 @@ img {
 }
 .projectsContainer {
   width: 100%;
-  height: 250vh;
+  height: 320vh;
   display: flex;
   flex-direction: column;
+}
+
+.projectcontainer {
+  display: flex;
+}
+.project1Image {
+  width: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project1Image img {
+  margin-top: 2.5vh;
+  width: 85%;
 }
 
 .project1 {
@@ -252,8 +268,9 @@ img {
   border-radius: 30px;
   font-family: "Fatface";
   display: flex;
+  flex-direction: column;
   padding: 10px;
-  height: 50vh;
+  height: 51vh;
   width: 80%;
 }
 .project2,
@@ -265,8 +282,9 @@ img {
   border-radius: 30px;
   font-family: "Fatface";
   display: flex;
+  flex-direction: column;
   padding: 10px;
-  height: 50vh;
+  height: 51vh;
   width: 80%;
   margin-top: 10vh;
 }
@@ -276,6 +294,7 @@ img {
   justify-content: center;
   align-items: center;
   width: 55%;
+  height: 42vh;
 }
 
 .project1text h4 {
@@ -291,138 +310,108 @@ img {
 }
 .project1site {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 50%;
-  margin-left: auto;
-  margin-right: 30px;
-  margin-top: 30px;
+  justify-content: space-between;
+  width: 84%;
+  margin-left: 8%;
+  margin-right: 8%;
 }
-.project1site img {
-  width: 85%;
-  border-radius: 20px;
-}
+
 .ptappButton {
   text-decoration: none;
   color: black;
-  text-align: center;
-  width: 60%;
+  width: 40%;
   border: 1px solid black;
   border-radius: 10px;
   font-size: 30px;
-  height: 50px;
+  height: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 27px;
+}
+.githubrepo {
+  text-decoration: none;
+  color: black;
+  width: 40%;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 30px;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .tictactoeButton {
   text-decoration: none;
   color: black;
-  text-align: center;
-  width: 60%;
+  width: 40%;
   border: 1px solid black;
   border-radius: 10px;
   font-size: 30px;
-  height: 50px;
+  height: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
 }
 .todoButton {
   text-decoration: none;
   color: black;
-  text-align: center;
-  width: 60%;
+  width: 40%;
   border: 1px solid black;
   border-radius: 10px;
   font-size: 30px;
-  height: 50px;
+  height: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
 }
 .expenseButton {
   text-decoration: none;
   color: black;
-  text-align: center;
-  width: 60%;
+  width: 40%;
   border: 1px solid black;
   border-radius: 10px;
   font-size: 30px;
-  height: 50px;
+  height: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 25px;
 }
 
-.githubrepo {
-  text-decoration: none;
-  color: black;
-  text-align: center;
-  width: 60%;
-  border: 1px solid black;
-  border-radius: 15px;
-  font-size: 30px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 0;
-  padding-top: 0;
-  margin-bottom: 5px;
-}
 .tictacrepo {
   text-decoration: none;
   color: black;
-  text-align: center;
-  width: 60%;
+  width: 40%;
   border: 1px solid black;
-  border-radius: 15px;
+  border-radius: 10px;
   font-size: 30px;
-  height: 50px;
+  height: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 0;
-  padding-top: 0;
-  margin-bottom: 23px;
 }
 .todorepo {
   text-decoration: none;
   color: black;
-  text-align: center;
-  width: 60%;
+  width: 40%;
   border: 1px solid black;
-  border-radius: 15px;
+  border-radius: 10px;
   font-size: 30px;
-  height: 50px;
+  height: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 0;
-  padding-top: 0;
-  margin-bottom: 18px;
 }
 .expenserepo {
   text-decoration: none;
   color: black;
-  text-align: center;
-  width: 60%;
+  width: 40%;
   border: 1px solid black;
-  border-radius: 15px;
+  border-radius: 10px;
   font-size: 30px;
-  height: 50px;
+  height: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 0;
-  padding-top: 0;
-  margin-bottom: 15px;
 }
 
 .projectsContainer a:hover {
@@ -554,20 +543,11 @@ img {
   .projectsContainer h4 {
     font-size: 24px;
   }
-  .githubrepo {
-    margin-bottom: 4.3vh;
-  }
-  .expenserepo {
-    margin-bottom: 5.1vh;
-  }
-  .todorepo {
-    margin-bottom: 5.75vh;
-  }
-  .tictacrepo {
-    margin-bottom: 6.95vh;
+  .project1text h4 {
+    font-size: 22px;
   }
   .contactNavigationbar h2 {
-    font-size: 40px;
+    font-size: 30px;
   }
   .button {
     width: 13%;
@@ -653,6 +633,9 @@ img {
     width: 96%;
     height: auto;
   }
+  .project1Image {
+    display: none;
+  }
 
   /*about section*/
   .about {
@@ -728,9 +711,13 @@ img {
 
   .project1 {
     display: flex;
+
     padding: 10px;
     height: 60vh;
     width: 80%;
+  }
+  .project1container {
+    display: flex;
   }
   .project2,
   .project3,
@@ -834,6 +821,9 @@ img {
 @media only screen and (min-width: 577px) and (max-width: 768px) {
   .contactNavigationbar nav {
     margin-left: 10%;
+  }
+  .project1Image {
+    display: none;
   }
   .contactNavigationbar nav,
   .navigationbar nav {

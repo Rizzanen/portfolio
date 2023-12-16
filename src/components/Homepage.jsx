@@ -116,17 +116,25 @@ function Homepage() {
         <div className="projectsContainer">
           <Reveal>
             <div className="project1">
-              <div className="project1text">
-                <h2>Personal Trainer App</h2>
-                <h4>
-                  This project is a UI for a backend providing REST API access
-                  to "personal trainers" customer information and training
-                  schedule. Interface includes CRUD functionalitites, a calendar
-                  visualizing the reserved workout times and a statistics page
-                  which visualizes the total booked time of different activities
-                  in minutes. There's also possibility to download customer and
-                  training data as CSV file. It has been deployed to firebase.
-                </h4>
+              <div className="projectcontainer">
+                <div className="project1text">
+                  <h2>Personal Trainer App</h2>
+                  <h4>
+                    This project is a UI for a backend providing REST API access
+                    to "personal trainers" customer information and training
+                    schedule. Interface includes CRUD functionalitites, a
+                    calendar visualizing the reserved workout times and a
+                    statistics page which visualizes the total booked time of
+                    different activities in minutes. There's also possibility to
+                    download customer and training data as CSV file. It has been
+                    deployed to firebase.
+                  </h4>
+                </div>
+                <div className="project1Image">
+                  <img src="/PtApp.png" />
+                </div>
+              </div>
+              <div className="project1site">
                 <a
                   href="https://github.com/Rizzanen/PTApp.git"
                   target="_blank"
@@ -134,11 +142,8 @@ function Homepage() {
                 >
                   <h5>Github repository</h5>
                 </a>
-              </div>
-              <div className="project1site">
-                <img src="/PtApp.png" />
                 <a
-                  href="https://personaltrainerapp-475a4.web.app/"
+                  href="https://personaltrainerapp-475a4.firebaseapp.com/"
                   target="_blank"
                   className="ptappButton"
                 >
@@ -149,15 +154,22 @@ function Homepage() {
           </Reveal>
           <Reveal>
             <div className="project2">
-              <div className="project1text">
-                <h2>Expense Tracker</h2>
-                <h4>
-                  This is a Spring boot application where the users can track
-                  their expenses. The project includes an H2-database, CRUD
-                  functionalities, Spring Security, JUnit tests, and error
-                  handling. It has been deployed to heroku. To login with full
-                  access to features username: admin password: admin .
-                </h4>
+              <div className="projectcontainer">
+                <div className="project1text">
+                  <h2>Expense Tracker</h2>
+                  <h4>
+                    This is a Spring boot application where the users can track
+                    their expenses. The project includes an H2-database, CRUD
+                    functionalities, Spring Security, JUnit tests, and error
+                    handling. It has been deployed to heroku. To login with full
+                    access to features username: admin password: admin .
+                  </h4>
+                </div>
+                <div className="project1Image">
+                  <img src="/Expensetracker.png" />
+                </div>
+              </div>
+              <div className="project1site">
                 <a
                   href="https://github.com/Rizzanen/expenseTracker.git"
                   target="_blank"
@@ -165,9 +177,6 @@ function Homepage() {
                 >
                   <h5>Github repository</h5>
                 </a>
-              </div>
-              <div className="project1site">
-                <img src="/Expensetracker.png" />
                 <a
                   href="https://expensestracker-cdb2251beb87.herokuapp.com/login"
                   target="_blank"
@@ -178,15 +187,58 @@ function Homepage() {
               </div>
             </div>
           </Reveal>
+
           <Reveal>
             <div className="project3">
-              <div className="project1text">
-                <h2>To-Do-List App</h2>
-                <h4>
-                  A To Do List app made with TypeScript. The user can add and
-                  delete things to do. It has been build with vite and launched
-                  to github pages.
-                </h4>
+              <div className="projectcontainer">
+                <div className="project1text">
+                  <h2>Perfect Circle</h2>
+                  <h4>
+                    This is a React application where the player has to draw a
+                    perfect circle. With this project I learned to work with
+                    HTML canvas and got experience working with eventListeners
+                    and tracking the mouse or touch movement on the screen.
+                  </h4>
+                </div>
+                <div className="project1Image">
+                  <img src="/perfectcircle.png" />
+                </div>
+              </div>
+              <div className="project1site">
+                <a
+                  href="https://github.com/Rizzanen/PerfectCircle.git"
+                  target="_blank"
+                  className="todorepo"
+                >
+                  <h5>Github repository</h5>
+                </a>
+                <a
+                  href="https://rizzanen.github.io/PerfectCircle/"
+                  target="_blank"
+                  className="todoButton"
+                >
+                  <h5>Try Perfect Circle</h5>
+                </a>
+              </div>
+            </div>
+          </Reveal>
+
+          <Reveal>
+            <div className="project3">
+              <div className="projectcontainer">
+                <div className="project1text">
+                  <h2>To-Do-List App</h2>
+                  <h4>
+                    A To Do List app made with TypeScript. The user can add and
+                    delete things to do. It has been build with vite and
+                    launched to github pages.
+                  </h4>
+                </div>
+                <div className="project1Image">
+                  <img src="/todolistapp.png" />
+                </div>
+              </div>
+              <div className="project1site">
                 <a
                   href="https://github.com/Rizzanen/Todolist.git"
                   target="_blank"
@@ -194,9 +246,6 @@ function Homepage() {
                 >
                   <h5>Github repository</h5>
                 </a>
-              </div>
-              <div className="project1site">
-                <img src="/todolistapp.png" />
                 <a
                   href="https://rizzanen.github.io/Todolist/"
                   target="_blank"
@@ -209,12 +258,19 @@ function Homepage() {
           </Reveal>
           <Reveal>
             <div className="project4">
-              <div className="project1text">
-                <h2>TicTacToe</h2>
-                <h4>
-                  TicTacToe application done with HTML,CSS and Javascript.
-                  Launched to Github Pages.
-                </h4>
+              <div className="projectcontainer">
+                <div className="project1text">
+                  <h2>TicTacToe</h2>
+                  <h4>
+                    TicTacToe application done with HTML,CSS and Javascript.
+                    Launched to Github Pages.
+                  </h4>
+                </div>
+                <div className="project1Image">
+                  <img src="/ristinolla.png" />
+                </div>
+              </div>
+              <div className="project1site">
                 <a
                   href="https://github.com/Rizzanen/Ristinolla.git"
                   target="_blank"
@@ -222,9 +278,6 @@ function Homepage() {
                 >
                   <h5>Github repository</h5>
                 </a>
-              </div>
-              <div className="project1site">
-                <img src="/ristinolla.png" />
                 <a
                   href="https://rizzanen.github.io/Ristinolla/"
                   target="_blank"
