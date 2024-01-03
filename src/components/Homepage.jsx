@@ -118,6 +118,81 @@ function Homepage() {
             <div className="project1">
               <div className="projectcontainer">
                 <div className="project1text">
+                  <h2>ThriftShop UI</h2>
+                  <h4>
+                    This is a dynamic and user-friendly thrift shop website that
+                    allows users to explore other users listings, create and
+                    manage their own sale listings and effortlessly manage their
+                    personal information. They can add items to shoppingcart and
+                    checkout them (formal checkout process under
+                    development).This project has been crafted with react and
+                    deployed to firebase.
+                  </h4>
+                </div>
+                <div className="project1Image">
+                  <img src="/ThriftShopUI.png" />
+                </div>
+              </div>
+              <div className="project1site">
+                <a
+                  href="https://github.com/Rizzanen/ThriftshopFrontend"
+                  target="_blank"
+                  className="githubrepo"
+                >
+                  <h5>Github repository</h5>
+                </a>
+                <a
+                  href="https://thriftshop-f26ac.web.app/"
+                  target="_blank"
+                  className="ptappButton"
+                >
+                  <h5>Try ThriftShop UI</h5>
+                </a>
+              </div>
+            </div>
+          </Reveal>
+
+          <Reveal>
+            <div className="project1">
+              <div className="projectcontainer">
+                <div className="project1text">
+                  <h2>ThriftShop Backend</h2>
+                  <h4>
+                    This is a Spring REST API application where I implemented
+                    REST endpoints for CRUD operations on listings using
+                    CrudRepository interfaces and enpoints to manage appUser
+                    information. I also made a endpoint to authenticate login
+                    Credentials and reset the db. Also I made a thymeleaf page
+                    for Api Documentation.
+                  </h4>
+                </div>
+                <div className="project1Image">
+                  <img src="/thriftshopbackend.png" />
+                </div>
+              </div>
+              <div className="project1site">
+                <a
+                  href="https://github.com/Rizzanen/ThriftshopBackend"
+                  target="_blank"
+                  className="githubrepo"
+                >
+                  <h5>Github repository</h5>
+                </a>
+                <a
+                  href="https://thriftshoprest-6dad2e66a25b.herokuapp.com/"
+                  target="_blank"
+                  className="ptappButton"
+                >
+                  <h5>Api Documentation</h5>
+                </a>
+              </div>
+            </div>
+          </Reveal>
+
+          <Reveal>
+            <div className="project1">
+              <div className="projectcontainer">
+                <div className="project1text">
                   <h2>Personal Trainer App</h2>
                   <h4>
                     This project is a UI for a backend providing REST API access
