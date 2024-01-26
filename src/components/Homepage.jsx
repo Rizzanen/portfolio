@@ -38,10 +38,10 @@ function Homepage() {
               I'm a 23-year-old second-year Information Technology Bachelor's
               degree student at Haaga-Helia University of Applied Sciences
               specializing in software development. I live in Helsinki, Finland.
-              On my free time I love to play icehockey, videogames and guitar. I
-              enjoy challenging myself and learning new things. Of me you can
-              get a reliable and enthusiastic employee who isn't afraid of
-              taking on responsibilities.
+              On my free time I love to play icehockey, videogames, guitar and
+              code. I enjoy challenging myself and learning new things. Of me
+              you can get a reliable and enthusiastic employee who isn't afraid
+              of taking on responsibilities.
             </h4>
           </RevealLeft>
         </div>
@@ -59,7 +59,7 @@ function Homepage() {
                   <h4>Javascript</h4>
                 </li>
                 <li>
-                  <h4>React.js</h4>
+                  <h4>React</h4>
                 </li>
                 <li>
                   <h4>HTML</h4>
@@ -68,7 +68,7 @@ function Homepage() {
                   <h4>CSS</h4>
                 </li>
                 <li>
-                  <h4>TypeScript basics</h4>
+                  <h4>React Native</h4>
                 </li>
               </ul>
             </div>
@@ -103,6 +103,22 @@ function Homepage() {
                 <li>
                   <h4>Github</h4>
                 </li>
+                <li>
+                  <h4>Heroku </h4>
+                  <ul>
+                    <li>
+                      <h5>Hosting</h5>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <h4>Firebase</h4>
+                  <ul>
+                    <li>
+                      <h5>Hosting</h5>
+                    </li>
+                  </ul>
+                </li>
               </ul>
             </div>
           </div>
@@ -121,12 +137,13 @@ function Homepage() {
                   <h2>ThriftShop UI</h2>
                   <h4>
                     This is a dynamic and user-friendly thrift shop website that
-                    allows users to explore other users listings, create and
-                    manage their own sale listings and effortlessly manage their
-                    personal information. They can add items to shoppingcart and
-                    checkout them (formal checkout process under
-                    development).This project has been crafted with react and
-                    deployed to firebase.
+                    enables users to explore sale listings from others, create
+                    and manage their own sale listings, and effortlessly handle
+                    their user information. Users can add items to the shopping
+                    cart and proceed to checkout (please note that the formal
+                    checkout process is currently under development). This
+                    project has been developed using React and deployed on
+                    Firebase.
                   </h4>
                 </div>
                 <div className="project1Image">
@@ -158,12 +175,13 @@ function Homepage() {
                 <div className="project1text">
                   <h2>ThriftShop Backend</h2>
                   <h4>
-                    This is a Spring REST API application where I implemented
-                    REST endpoints for CRUD operations on listings using
-                    CrudRepository interfaces and enpoints to manage appUser
-                    information. I also made a endpoint to authenticate login
-                    Credentials and reset the db. Also I made a thymeleaf page
-                    for Api Documentation.
+                    I Built a Spring REST API application for my Thriftshop UI,
+                    leveraging CRUD-Repositories and Entities to manage data in
+                    an H2-database. I Implemented endpoints for login credential
+                    validation and CRUD-operations. This project demonstrates my
+                    skills in Spring framework development and addressed
+                    specific requirements for the thrift shop UI. Deployed to
+                    heroku.
                   </h4>
                 </div>
                 <div className="project1Image">
@@ -183,7 +201,7 @@ function Homepage() {
                   target="_blank"
                   className="ptappButton"
                 >
-                  <h5>Api Documentation</h5>
+                  <h5>Api Endpoints</h5>
                 </a>
               </div>
             </div>
@@ -227,41 +245,6 @@ function Homepage() {
               </div>
             </div>
           </Reveal>
-          <Reveal>
-            <div className="project2">
-              <div className="projectcontainer">
-                <div className="project1text">
-                  <h2>Expense Tracker</h2>
-                  <h4>
-                    This is a Spring boot application where the users can track
-                    their expenses. The project includes an H2-database, CRUD
-                    functionalities, Spring Security, JUnit tests, and error
-                    handling. It has been deployed to heroku. To login with full
-                    access to features username: admin password: admin .
-                  </h4>
-                </div>
-                <div className="project1Image">
-                  <img src="/Expensetracker.png" />
-                </div>
-              </div>
-              <div className="project1site">
-                <a
-                  href="https://github.com/Rizzanen/expenseTracker.git"
-                  target="_blank"
-                  className="expenserepo"
-                >
-                  <h5>Github repository</h5>
-                </a>
-                <a
-                  href="https://expensestracker-cdb2251beb87.herokuapp.com/login"
-                  target="_blank"
-                  className="expenseButton"
-                >
-                  <h5>Try Expense Tracker</h5>
-                </a>
-              </div>
-            </div>
-          </Reveal>
 
           <Reveal>
             <div className="project3">
@@ -299,6 +282,43 @@ function Homepage() {
           </Reveal>
 
           <Reveal>
+            <div className="project2">
+              <div className="projectcontainer">
+                <div className="project1text">
+                  <h2>Expense Tracker</h2>
+                  <h4>
+                    This is a Spring boot application where the users can track
+                    their expenses. The project includes an
+                    H2-database,Thymeleaf, CRUD functionalities, Spring
+                    Security, JUnit tests, and error handling. It has been
+                    deployed to heroku. To login with full access to features
+                    username: admin password: admin .
+                  </h4>
+                </div>
+                <div className="project1Image">
+                  <img src="/Expensetracker.png" />
+                </div>
+              </div>
+              <div className="project1site">
+                <a
+                  href="https://github.com/Rizzanen/expenseTracker.git"
+                  target="_blank"
+                  className="expenserepo"
+                >
+                  <h5>Github repository</h5>
+                </a>
+                <a
+                  href="https://expensestracker-cdb2251beb87.herokuapp.com/login"
+                  target="_blank"
+                  className="expenseButton"
+                >
+                  <h5>Try Expense Tracker</h5>
+                </a>
+              </div>
+            </div>
+          </Reveal>
+
+          {/* <Reveal>
             <div className="project3">
               <div className="projectcontainer">
                 <div className="project1text">
@@ -362,7 +382,7 @@ function Homepage() {
                 </a>
               </div>
             </div>
-          </Reveal>
+          </Reveal> */}
         </div>
       </div>
     </div>
