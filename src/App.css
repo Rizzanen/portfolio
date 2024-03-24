@@ -1036,3 +1036,207 @@ img {
     margin-left: 20px;
   }
 }
+/* eitoimi */
+@media only screen and (min-width: 769) and (max-width: 968px) {
+  .contactNavigationbar nav {
+    margin-left: 10%;
+  }
+
+  .namecontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 40vh;
+    margin-top: 10%;
+  }
+  .hello h4,
+  .name h1,
+  .nameparagraph h4 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .hello {
+    margin-left: 28%;
+    margin-top: 30%;
+    font-size: 10px;
+  }
+
+  .name {
+    width: 80%;
+    font-size: 15px;
+    line-height: 0.1;
+  }
+  .nameparagraph {
+    font-size: 10px;
+    width: 80%;
+    margin-left: 35%;
+    margin-top: 25px;
+  }
+
+  .photo {
+    margin-left: 10px;
+    margin-top: 15%;
+  }
+
+  img {
+    width: 70%;
+    margin-top: 0;
+    height: auto;
+  }
+
+  /*about section*/
+  .about {
+    font-size: 14px;
+    width: 90%;
+    padding: 0px;
+    margin-left: 5px;
+    margin-right: 15px;
+    padding-left: 30px;
+    border-radius: 50px;
+  }
+
+  /*skills section*/
+  .skillsHeader {
+    font-size: 25px;
+  }
+  .skillsContainer {
+    height: 72vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skillsContainer h4,
+  .skillsContainer h5 {
+    margin: 0;
+    padding: 1;
+  }
+
+  .frontend {
+    width: 50%;
+    margin-right: auto;
+    margin-bottom: 10%;
+    font-size: 15px;
+  }
+
+  .backend {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10%;
+    font-size: 15px;
+  }
+
+  .other {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10%;
+    font-size: 15px;
+    height: 15vh;
+  }
+
+  .other h2,
+  .backend h2,
+  .frontend h2 {
+    text-align: center;
+    font-family: "Fredrika";
+    font-size: 20px;
+  }
+
+  /*Projects section*/
+
+  .projectsHeader {
+    font-size: 25px;
+  }
+  .projectsContainer {
+    width: 100%;
+    height: 250vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project1 {
+    display: flex;
+    padding: 10px;
+    height: 40vh;
+    width: 80%;
+  }
+  .project2,
+  .project3,
+  .project4 {
+    padding: 10px;
+    height: 30vh;
+    width: 80%;
+    margin-top: 10vh;
+  }
+  .project1text {
+    width: 100%;
+  }
+
+  .project1text h4 {
+    width: 80%;
+    height: 60%;
+    margin-top: 40px;
+  }
+  .project1text h2 {
+    font-size: 23px;
+  }
+  .project1site {
+    display: none;
+  }
+
+  .contact {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact form {
+    width: 90%;
+    height: 55%;
+  }
+  .namediv,
+  .emaildiv,
+  .messagediv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .namediv label,
+  .emaildiv label,
+  .messagediv label {
+    margin-right: 48%;
+    font-size: 25px;
+  }
+  .namediv input,
+  .emaildiv input {
+    width: 70%;
+  }
+  .messagediv label {
+    margin-left: 6%;
+  }
+  .messagediv textarea {
+    width: 70%;
+  }
+  .button {
+    width: 20%;
+    height: 6%;
+    margin-right: 49%;
+    font-family: "Fatface";
+  }
+  .submitMessage {
+    font-family: "Fatface";
+    font-size: 18px;
+    margin-left: 20px;
+  }
+}

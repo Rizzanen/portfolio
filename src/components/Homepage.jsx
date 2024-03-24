@@ -281,43 +281,6 @@ function Homepage() {
             </div>
           </Reveal>
 
-          <Reveal>
-            <div className="project2">
-              <div className="projectcontainer">
-                <div className="project1text">
-                  <h2>Expense Tracker</h2>
-                  <h4>
-                    This is a Spring boot application where the users can track
-                    their expenses. The project includes an
-                    H2-database,Thymeleaf, CRUD functionalities, Spring
-                    Security, JUnit tests, and error handling. It has been
-                    deployed to heroku. To login with full access to features
-                    username: admin password: admin .
-                  </h4>
-                </div>
-                <div className="project1Image">
-                  <img src="/Expensetracker.png" />
-                </div>
-              </div>
-              <div className="project1site">
-                <a
-                  href="https://github.com/Rizzanen/expenseTracker.git"
-                  target="_blank"
-                  className="expenserepo"
-                >
-                  <h5>Github repository</h5>
-                </a>
-                <a
-                  href="https://expensestracker-cdb2251beb87.herokuapp.com/login"
-                  target="_blank"
-                  className="expenseButton"
-                >
-                  <h5>Try Expense Tracker</h5>
-                </a>
-              </div>
-            </div>
-          </Reveal>
-
           {/* <Reveal>
             <div className="project3">
               <div className="projectcontainer">
